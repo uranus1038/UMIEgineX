@@ -20,7 +20,6 @@ int WINAPI WinMain(HINSTANCE hInst , HINSTANCE hPInst ,LPSTR args , int n)
 
     // Message Events
     MSG msg ={0} ;
-
     while(GetMessage(&msg ,0,0,0))
     {
         TranslateMessage(&msg);
