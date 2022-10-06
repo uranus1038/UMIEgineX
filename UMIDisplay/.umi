@@ -1,0 +1,2 @@
+# g++ -I lib/include -L lib/lib -o UMIDisplayX UMIMain.cpp -lmingw32 -lSDL2 -lSDL2main -lSDL2_image
+# g++ -o UMIEgineX UMIWinMain.cpp
